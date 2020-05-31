@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source_files              = "Sources/**/*"
   s.frameworks                = "Foundation"
   
-  s.dependency 'vCrespoP/VCNetworkKit'
+  s.dependency 'VCNetworkKit'
   
 end
