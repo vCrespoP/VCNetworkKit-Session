@@ -16,16 +16,11 @@ let package = Package(
             targets: ["VCNetworkKit-Session"]
         ),
     ],
-    dependencies: [
-        .package(
-            url: "https://github.com/vCrespoP/VCNetworkKit.git",
-            from: "1.0.0"
-        ),
-    ],
+    dependencies: [ ],
     targets: [
         .target(
             name: "VCNetworkKit-Session",
-            dependencies: ["VCNetworkKit"],
+            dependencies: [],
             path: "Sources"
         ),
         .testTarget(
